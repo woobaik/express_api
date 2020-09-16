@@ -1,0 +1,28 @@
+{
+	"name": "express_api",
+	"version": "1.0.0",
+	"description": "Creating API service for using express.js",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/woobaik/express_api.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/woobaik/express_api/issues"
+	},
+	"homepage": "https://github.com/woobaik/express_api#readme",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.10.5"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
