@@ -5,8 +5,8 @@ const connetDB = async () => {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
 	})
-	console.log(conn.connection.host)
-	console.log('DB IS CONNECTED')
+
+	console.log(`DB IS CONNECTED at ${conn.connection.host}`.brightMagenta.bold)
 }
 
 module.exports = connetDB
